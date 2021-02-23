@@ -1,0 +1,84 @@
+.technology-section {
+	padding-left: 165px;
+	padding-right: 165px;
+	padding-top: 200px;
+}
+.technology-section__h2 {
+	text-align: center;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 43px;
+	color: $black-text;
+	padding-top: 63px;
+}
+.technology-section__container-flex {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 100px;
+}
+.technology-section__box {
+	text-align: center;
+	padding: 10px 15px;
+	&:hover {
+		box-shadow: 2px 2px 15px $red-text;
+		border: none;
+		background: transparent;
+		border-radius: 6px;
+		padding: 10px 15px;
+	}
+}
+.technology-section__box-ico {
+	font-size: 80px;
+	color: $red-text;
+}
+.box-ico-cloud {
+	padding-top: 10px;
+}
+.ico-cloud {
+	padding-bottom: 0;
+	line-height: 0;
+}
+.ico-secure {
+	font-size: 70px;
+}
+.ico-pdf {
+	font-size: 70px;
+}
+.ico-csv {
+	font-size: 60px;
+}
+.csv-text {
+	padding-top: 10px;
+}
+.technology-section__box-h3 {
+	font-weight: bold;
+	font-size: 18px;
+	color: $black-text;
+}
+.technology__box-p {
+	font-size: 14px;
+	line-height: 17px;
+	color: $black-text;
+	padding-top: 10px;
+	width: 190px;
+}
+@media screen and (max-width: 992px) {
+	.technology-section__container-flex {
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+}
+@media screen and (max-width: 576px) {
+	.technology-section__container-flex {
+		padding-top: 50px;
+	}
+	.technology-section__box {
+		margin-top: 20px;
+	}
+	.technology-section {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
