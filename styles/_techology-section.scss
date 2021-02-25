@@ -20,12 +20,16 @@
 .technology-section__box {
 	text-align: center;
 	padding: 10px 15px;
+	transition: 0.3s;
 	&:hover {
 		box-shadow: 2px 2px 15px $red-text;
 		border: none;
 		background: transparent;
 		border-radius: 6px;
 		padding: 10px 15px;
+	}
+	&:active {
+		box-shadow: 5px 5px 25px gray;
 	}
 }
 .technology-section__box-ico {

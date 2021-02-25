@@ -29,10 +29,16 @@
 	text-align: justify;
 	width: 70%;
 }
+.iframe-ico-anchor {
+	width: 32px;
+	height: 32px;
+}
 .iframe-container__left__ico-playstore {
-	padding-top: 35px;
+	margin-top: 35px;
 	color: $primary-color;
 	font-size: 32px;
+	width: 32px;
+	height: 32px;
 	&:hover {
 		color: $black-text;
 		text-shadow: 0.5px 0.5px 1px grey;
@@ -43,10 +49,12 @@
 	}
 }
 .iframe-container__left__ico-appstore {
-	padding-top: 35px;
+	margin-top: 35px;
 	color: $primary-color;
 	font-size: 28px;
-	padding-left: 25px;
+	width: 28px;
+	height: 28px;
+	margin-left: 25px;
 	&:hover {
 		color: $black-text;
 		text-shadow: 0.5px 0.5px 1px grey;
@@ -57,13 +65,14 @@
 	}
 }
 .iframe-container__left__ico-windows {
-	padding-top: 35px;
+	margin-top: 35px;
 	color: $primary-color;
 	font-size: 24px;
-	padding-left: 25px;
+	width: 24px;
+	height: 24px;
+	margin-left: 25px;
 	&:hover {
-		color: $black-text;
-		text-shadow: 0.5px 0.5px 1px grey;
+		color: rgb(19, 19, 18);
 	}
 	&:active {
 		padding-top: 35px;
@@ -77,7 +86,7 @@
 }
 .iframe-container__right {
 	width: 100%;
-	padding-right: 60px;
+	margin-right: 60px;
 }
 .iframe {
 	width: 100%;

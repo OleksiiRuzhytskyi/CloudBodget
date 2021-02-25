@@ -16,49 +16,49 @@
 			<div class="container header-container">
 				<div class="main-nav-container">
 					<div class="main-nav-container__logo">
-						<a href="#logo" tabindex="5" aria-label="logo img">
-							<img src="./images/logo.png" alt="logo img">
+						<a href="#logo"  aria-label="logo img">
+							<img src="./images/logo.png" alt="logo img" tabindex="1">
 						</a>
 					</div>
-					<div class="wrapper">
+					<div class="wrapper" tabindex="0">
 						<input type="checkbox" id="checkbox" class="wrapper__checkbox" tabindex="1">
 						<label for="checkbox" class="wrapper__burger">
 							<span class="wrapper-burger__line"></span>
 							<span class="wrapper-burger__line"></span>
 							<span class="wrapper-burger__line"></span>
 						</label>
-						<nav class="main-nav">
+						<nav class="main-nav" tabindex="">
 							<ul class="main-nav-list">
-								<li class="main-nav-item">
-									<a href="#OVERVIEW" class="main-nav-link"  tabindex="0" aria-label="overview" tabindex="1">OVERVIEW</a>
+								<li class="main-nav-item"  tabindex="2">
+									<a href="#OVERVIEW" class="main-nav-link" aria-label="overview" tabindex="1">OVERVIEW</a>
 								</li>
-								<li class="main-nav-item">
-									<a href="#FEATURES" class="main-nav-link"  tabindex="0" aria-label="features">FEATURES</a>
+								<li class="main-nav-item"  tabindex="2">
+									<a href="#FEATURES" class="main-nav-link" aria-label="features">FEATURES</a>
 								</li>
-								<li class="main-nav-item">
-									<a href="#TECHNOLOGY" class="main-nav-link"  tabindex="0" aria-label="technology">TECHNOLOGY</a>
+								<li class="main-nav-item"  tabindex="2">
+									<a href="#TECHNOLOGY" class="main-nav-link" aria-label="technology">TECHNOLOGY</a>
 								</li>
-								<li class="main-nav-item">
-									<a href="#CONTACTS" class="main-nav-link"  tabindex="0" aria-label="contacts">CONTACTS</a>
+								<li class="main-nav-item"  tabindex="2">
+									<a href="#CONTACTS" class="main-nav-link" aria-label="contacts">CONTACTS</a>
 								</li>
-								<li class="main-nav-item">
-									<a href="#SIGN UP"  tabindex="0" class="main-nav-link">SIGN UP</a>
+								<li class="main-nav-item"  tabindex="2">
+									<a href="#SIGN UP" class="main-nav-link">SIGN UP</a>
 								</li>
 							</ul>					
 						</nav>
 					</div>				
-					<div class="main-button-container">
+					<div class="main-button-container" tabindex="3">
 						<button class="main-button">LOGIN</button>
 					</div>
 				</div>
 				</div>
-				<div class="main-text-container">
+				<div class="main-text-container" >
 					<h1 class="main-text">CLOUDBUDGET</h1>
 					<p class="main-text-under">
 						Cloud budget management for everyone. Only <br>€69.95 a Month After a 7 Day Trial of 
 					<br>	Up to €4.99
 					</p>
-					<button class="main-text-container__button">SIGN UP</button>
+					<button class="main-text-container__button" tabindex="3">SIGN UP</button>
 				</div>
 			</div>
 	</header>
@@ -77,10 +77,10 @@
 						at a glance. Read below to find out more.
 					</p>
 				</div>
-				<div class="hero-section__img">
-					<img class="hero-section__img__img" src="./images/video-img-1x.jpg" alt="video-img">
-					<button class="hero-section__img__button">
-						<img src="./images/play.svg" class="play-img" alt="play-img">
+				<div class="hero-section__img" tabindex="3">
+					<img class="hero-section__img__img" tabindex="3" src="./images/video-img-1x.jpg" alt="video-img"  aria-label="video">
+					<button class="hero-section__img__button" tabindex="4"  aria-label="button">
+						<img src="./images/play.svg" tabindex="3" class="play-img" alt="play-img">
 					</button>
 				</div>
 			</div>
@@ -91,7 +91,7 @@
 			<h2 class="features-section__h2">Features</h2>
 			<div class="features-section__box-flex">
 				<div class="features-section__box-flex__box">
-					<div class="box-img">
+					<div class="box-img"tabindex="5">
 						<picture>
 							<source media="(min-width: 576px)"
 								srcset="./images/supports-1x.jpg 1x,
@@ -113,11 +113,11 @@
 						</picture>
 					</div>
 					<div class="box__text">
-						<h3 class="box__text__h3">Supports All Currencies and Cards</h3>
-						<p class="box__text__p">
+						<h3 class="box__text__h3" tabindex="6">Supports All Currencies and Cards</h3>
+						<p class="box__text__p" tabindex="7">
 							We support all popular currencies and is fully customizable to add
 						</p>
-						<button class="box__button">Read Me</button>
+						<button class="box__button" tabindex="8">Read Me</button>
 					</div>
 				</div>
 				<div class="features-section__box-flex__box box-manage">
@@ -143,11 +143,11 @@
 						</picture>
 					</div>
 					<div class="box__text">
-						<h3 class="box__text__h3">Manage your expenses on the go</h3>
-						<p class="box__text__p">
+						<h3 class="box__text__h3" tabindex="9">Manage your expenses on the go</h3>
+						<p class="box__text__p" tabindex="10">
 							You can access your account from anywhere in the world on any device
 						</p>
-						<button class="box__button">Read Me</button>
+						<button class="box__button" tabindex="11">Read Me</button>
 					</div>
 				</div>				
 				<div class="features-section__box-flex__box box-software">
@@ -173,11 +173,11 @@
 						</picture>
 					</div>
 					<div class="box__text">
-						<h3 class="box__text__h3">Cloud Budget Management Software</h3>
-						<p class="box__text__p">
+						<h3 class="box__text__h3" tabindex="12">Cloud Budget Management Software</h3>
+						<p class="box__text__p" tabindex="13">
 							Our software is made so you can access and manage your budget
 						</p>
-						<button class="box__button">Read Me</button>
+						<button class="box__button" tabindex="14">Read Me</button>
 					</div>
 				</div>
 			</div>
@@ -187,8 +187,8 @@
 		<div class="container">
 				<h2 class="technology-section__h2">Technology</h2>
 			<div class="technology-section__container-flex">
-				<div class="technology-section__box box-ico-cloud">
-					<a href="#cloud">
+				<div class="technology-section__box box-ico-cloud" tabindex="15">
+					<a href="#cloud" target="_blanc">
 						<span class="technology-section__box-ico ico-cloud">
 							<span class="icon-cloud"></span>
 						</span>
@@ -199,8 +199,8 @@
 						</p>
 					</a>
 				</div>
-				<div class="technology-section__box">
-					<a href="#secure">
+				<div class="technology-section__box" tabindex="16">
+					<a href="#secure" target="_blanc">
 						<span class="technology-section__box-ico ico-secure">
 							<span class="icon-secure"></span>
 						</span>
@@ -210,8 +210,8 @@
 						</p>
 					</a>
 				</div> 
-				<div class="technology-section__box">
-					<a href="#pdf-download">
+				<div class="technology-section__box" tabindex="17">
+					<a href="#pdf-download" target="_blanc">
 						<span class="technology-section__box-ico ico-pdf">
 							<span class="icon-pdf"></span>
 						</span>
@@ -221,8 +221,8 @@
 						</p>
 					</a>
 				</div>
-				<div class="technology-section__box">
-					<a href="#csv-download">
+				<div class="technology-section__box" tabindex="18">
+					<a href="#csv-download" target="_blanc">
 						<span class="technology-section__box-ico ico-csv">
 							<span class="icon-csv"></span>
 						</span>
@@ -249,24 +249,24 @@
 					</p>
 					<div class="iframe-container__left__ico-container">
 						<a href="https://playstore.com" aria-label="playstore" target="_blanc">
-							<span class="iframe-container__left__ico-playstore">
+							<span class="iframe-container__left__ico-playstore"  tabindex="19">
 								<span class="icon-playstore"></span>
 							</span>
 						</a>
 						<a href="https://appstore.com" aria-label="appstore" target="_blanc">
-							<span class="iframe-container__left__ico-appstore">
+							<span class="iframe-container__left__ico-appstore" tabindex="19">
 								<span class="icon-appstore"></span>
 							</span>
 						</a>
 						<a href="https://windows.com" aria-label="windows- market" target="_blanc">
-							<span class="iframe-container__left__ico-windows">
+							<span class="iframe-container__left__ico-windows"  tabindex="19">
 								<span class="icon-windows"></span>
 							</span>
 						</a>
 					</div>
 				</div>
 				<div class="iframe-container__right">
-					<iframe class="iframe" aria-label="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.6715036066835!2d-79.07035748524788!3d35.881566226567344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89acc3b268d660f3%3A0x324e1d4a51356968!2s600%20Copperline%20Dr%20%23202%2C%20Chapel%20Hill%2C%20NC%2027516%2C%20USA!5e0!3m2!1sen!2sua!4v1613593889432!5m2!1sen!2sua" allowfullscreen="" aria-hidden="false"></iframe>
+					<iframe class="iframe" tabindex="20" aria-label="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.6715036066835!2d-79.07035748524788!3d35.881566226567344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89acc3b268d660f3%3A0x324e1d4a51356968!2s600%20Copperline%20Dr%20%23202%2C%20Chapel%20Hill%2C%20NC%2027516%2C%20USA!5e0!3m2!1sen!2sua!4v1613593889432!5m2!1sen!2sua" allowfullscreen="" aria-hidden="false"></iframe>
 				</div>
 			</div>
 		</div>
@@ -288,19 +288,19 @@
 				<div class="contact-container__form">
 					<form id="form" class="form">
 						<div class="contact-container__form-container">
-							<input name="form" class="contact-container__input-first-name" type="text" placeholder="First Name">
-							<input name="form" class="contact-container__input-last-name" type="text" placeholder="Last Name">
+							<input name="form" class="contact-container__input-first-name" type="text" tabindex="21" required placeholder="First Name">
+							<input name="form" class="contact-container__input-last-name" type="text" tabindex="21" required placeholder="Last Name">
 						</div>
-						<input name="form" class="contact-container__input-phone" type="text" placeholder="Phone Number">
+						<input name="form" class="contact-container__input-phone" type="text" tabindex="21" required placeholder="Phone Number">
 						<div class="ico-arrow-flex">
-						<select name="form" class="contact-container__input-select-service" placeholder="Select Service" type="text">
+						<select name="form" class="contact-container__input-select-service" tabindex="21" placeholder="Select Service" type="text">
 							<option>Select Service</option>
 						</select>
 						<span class="ico-arrow-down">
 							<span class="icon-arrow-down"></span>
 						</span>
 					</div>
-						<button name="form" class="contact-container__button">submit now</button>
+						<button name="form" class="contact-container__button" tabindex="21">submit now</button>
 					</form>
 				</div>
 			</div>
@@ -320,19 +320,19 @@
 				<div class="footer-services-container">
 					<h2 class="footer-container__h2 h2__services">Services</h2>
 					<ul class="footer-services-container__list">
-						<li class="footer-services-container__item">
+						<li class="footer-services-container__item" tabindex="22">
 							<a class="footer-services-container__link" href="#">Overview</a>
 						</li>
-						<li class="footer-services-container__item">
+						<li class="footer-services-container__item" tabindex="22">
 							<a class="footer-services-container__link" href="#">Features</a>
 						</li>
-						<li class="footer-services-container__item">
+						<li class="footer-services-container__item" tabindex="22">
 							<a class="footer-services-container__link" href="#">Techology</a>
 						</li>
-						<li class="footer-services-container__item">
+						<li class="footer-services-container__item" tabindex="22">
 							<a class="footer-services-container__link" href="#">Terms & Conditions</a>
 						</li>
-						<li class="footer-services-container__item">
+						<li class="footer-services-container__item" tabindex="22">
 							<a class="footer-services-container__link" href="#">Privecy</a>
 						</li>
 					</ul>
@@ -345,17 +345,17 @@
 					</p>
 					<div class="footer-ico-container">
 						<a href="https://facebook.com" aria-label="facebook" target="_blanc">
-							<span class="ico-facebook">
+							<span class="ico-facebook" tabindex="23">
 								<span class="icon-facebook"></span>
 							</span>
 						</a>
 						<a href="https:linkedin.com" aria-label="linkedin" target="_blanc">
-							<span class="ico-linkedin">
+							<span class="ico-linkedin" tabindex="23">
 								<span class="icon-linkedin"></span>
 							</span>
 						</a>
 						<a href="https:twitter.com" aria-label="twitter" target="_blanc">
-							<span class="ico-twitter">
+							<span class="ico-twitter" tabindex="23">
 								<span class="icon-twitter"></span>
 							</span>
 						</a>

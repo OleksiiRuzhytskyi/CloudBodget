@@ -66,6 +66,10 @@ button:active {
   transition: 0.2s;
 }
 
+button:focus {
+  border: 1px solid #FFF;
+}
+
 a {
   text-decoration: none;
   outline: none;
@@ -119,8 +123,8 @@ header {
   color: #FFF;
   font-size: 14px;
   line-height: 17px;
-  margin-left: 5px;
-  padding: 5px 10px;
+  margin-left: 2px;
+  padding: 8px 10px;
   background: transparent;
   -webkit-transition-duration: 0.5s, 0.3s;
           transition-duration: 0.5s, 0.3s;
@@ -133,12 +137,17 @@ header {
   color: #ED4C5C;
   background: #FFF;
   border-radius: 6px;
-  padding: 5px 10px;
+  padding: 8px 10px;
 }
 
 .main-nav-link:active {
   background: transparent;
   color: #FFF;
+}
+
+.main-nav-link:ficus {
+  border: 1px solid #FFF;
+  outline: none;
 }
 
 .main-button {
@@ -760,6 +769,8 @@ header {
 .technology-section__box {
   text-align: center;
   padding: 10px 15px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .technology-section__box:hover {
@@ -769,6 +780,11 @@ header {
   background: transparent;
   border-radius: 6px;
   padding: 10px 15px;
+}
+
+.technology-section__box:active {
+  -webkit-box-shadow: 5px 5px 25px gray;
+          box-shadow: 5px 5px 25px gray;
 }
 
 .technology-section__box-ico {
@@ -882,10 +898,17 @@ header {
   width: 70%;
 }
 
+.iframe-ico-anchor {
+  width: 32px;
+  height: 32px;
+}
+
 .iframe-container__left__ico-playstore {
-  padding-top: 35px;
+  margin-top: 35px;
   color: #FFF;
   font-size: 32px;
+  width: 32px;
+  height: 32px;
 }
 
 .iframe-container__left__ico-playstore:hover {
@@ -899,10 +922,12 @@ header {
 }
 
 .iframe-container__left__ico-appstore {
-  padding-top: 35px;
+  margin-top: 35px;
   color: #FFF;
   font-size: 28px;
-  padding-left: 25px;
+  width: 28px;
+  height: 28px;
+  margin-left: 25px;
 }
 
 .iframe-container__left__ico-appstore:hover {
@@ -916,15 +941,16 @@ header {
 }
 
 .iframe-container__left__ico-windows {
-  padding-top: 35px;
+  margin-top: 35px;
   color: #FFF;
   font-size: 24px;
-  padding-left: 25px;
+  width: 24px;
+  height: 24px;
+  margin-left: 25px;
 }
 
 .iframe-container__left__ico-windows:hover {
-  color: #000;
-  text-shadow: 0.5px 0.5px 1px grey;
+  color: #131312;
 }
 
 .iframe-container__left__ico-windows:active {
@@ -944,7 +970,7 @@ header {
 
 .iframe-container__right {
   width: 100%;
-  padding-right: 60px;
+  margin-right: 60px;
 }
 
 .iframe {
@@ -1355,7 +1381,7 @@ header {
 }
 
 .ico-linkedin {
-  padding-top: 20px;
+  margin-top: 20px;
   font-size: 20px;
   color: #000;
 }
@@ -1369,7 +1395,7 @@ header {
 }
 
 .ico-twitter {
-  padding-top: 20px;
+  margin-top: 20px;
   font-size: 20px;
   color: #000;
 }
