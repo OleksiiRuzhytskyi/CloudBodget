@@ -78,8 +78,9 @@
 	border-radius: 6px;
 	-webkit-appearance: none;
 	-moz-appearance: none;
-	-ms-appearance: none;
-	appearance: none;
+	&::-ms-expand {
+		display: none;
+	}
 }
 .ico-arrow-flex {
 	display: flex;
@@ -93,6 +94,7 @@
 	top: calc(100% - 35px);
 	left: calc(100% - 50px);
 	color: rgba(19, 39, 67, 0.5);
+	-ms-appearance: none;
 }
 .contact-container__button {
 	margin-top: 28px;

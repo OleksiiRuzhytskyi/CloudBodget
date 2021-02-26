@@ -844,7 +844,7 @@ header {
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .technology-section__container-flex {
     padding-top: 50px;
   }
@@ -1178,8 +1178,10 @@ header {
   border-radius: 6px;
   -webkit-appearance: none;
   -moz-appearance: none;
-  -ms-appearance: none;
-  appearance: none;
+}
+
+.contact-container__input-select-service::-ms-expand {
+  display: none;
 }
 
 .ico-arrow-flex {
@@ -1199,6 +1201,7 @@ header {
   top: calc(100% - 35px);
   left: calc(100% - 50px);
   color: rgba(19, 39, 67, 0.5);
+  -ms-appearance: none;
 }
 
 .contact-container__button {
