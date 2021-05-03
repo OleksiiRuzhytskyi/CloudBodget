@@ -1,0 +1,24 @@
+{
+  "name": "cloudbodget",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OleksiiRuzhytskyi/CloudBodget.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OleksiiRuzhytskyi/CloudBodget/issues"
+  },
+  "homepage": "https://github.com/OleksiiRuzhytskyi/CloudBodget#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
